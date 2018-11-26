@@ -50,7 +50,7 @@ numerar();
 
 function numerar() {
   for (i = 1; i < 366; i++) {
-    let fecha = fechaPorDia(2017, i);
+    let fecha = fechaPorDia(2018, i);
     let mes = fecha.getMonth();
     let select_tabla = document.getElementsByClassName('tabla_mes')[mes];
     let dia = fecha.getDate()
