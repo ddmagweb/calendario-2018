@@ -2,6 +2,13 @@
 body{
   background-color: dodgerblue;
 }
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 div.mes {
   margin: 0 auto;
   width: 250px;
